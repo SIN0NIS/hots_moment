@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Hots Single Image Test</title>
+    <style>
+        body { background-color: #121212; color: white; text-align: center; padding: 50px; font-family: sans-serif; }
+        .img-box { border: 2px solid #00d4ff; padding: 10px; display: inline-block; border-radius: 10px; background: #000; }
+        img { max-width: 100%; height: auto; border-radius: 5px; }
+        .info { margin-top: 20px; color: #888; }
+    </style>
+</head>
+<body>
+    <h1>🎯 특정 파일 로드 테스트</h1>
+    <p>파일명: 008_디아_켈투_발차기뒤집기.gif</p>
+
+    <div class="img-box">
+        <img src="https://raw.githubusercontent.com/SIN0NIS/hots_moment/main/hots_gif/008_디아_켈투_발차기뒤집기.gif" 
+             alt="이미지를 불러오는 중..." 
+             onerror="this.parentElement.innerHTML='<p style=color:red>불러오기 실패 (LFS 트래픽 초과일 확률 99%)</p>'">
+    </div>
+
+    <div class="info">
+        <p>만약 위 박스에 빨간 글씨가 뜬다면, 깃허브가 전송을 막은 것입니다.</p>
+        <p>이럴 땐 내 컴퓨터에 있는 파일을 직접 불러와야 합니다.</p>
+    </div>
+</body>
+</html>
